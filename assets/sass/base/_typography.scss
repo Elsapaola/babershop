@@ -1,0 +1,22 @@
+$light: 300;
+$regular: 400;
+
+$font-stack: 'Roboto', sans-serif;
+
+$xx-large: 4.3rem;
+$x-large: 2.8rem;
+$large: 1rem;
+$medium: 1rem;
+
+h1 {
+ font-family: $font-stack;
+ font-weight: $regular; 
+ font-size: $xx-large;
+}
+
+p {
+ color: $nickel;
+ text-align: justify;
+ font-size:$large;
+ font-family: $font-stack;
+}

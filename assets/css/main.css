@@ -152,12 +152,12 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #E56353;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: #cd321f;
   text-decoration: underline;
 }
 
@@ -2712,11 +2712,11 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #E56353;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #0056b3;
+  color: #cd321f;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4339,13 +4339,13 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #E56353;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #cd321f;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9654,6 +9654,166 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+body {
+  font: 100% Roboto, sans-serif;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 4.3rem;
+}
+
+p {
+  color: #6C6E70;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.article1__img {
+  border-radius: 137px !important;
+  align-content: right;
+  width: 200px;
+  padding: 1rem;
+  margin-left: 7rem;
+}
+
+.article2 {
+  background-color: #D1D1D1;
+  height: 100px;
+  padding: 1rem;
+  color: #6C6E70 !important;
+}
+
+.article__container2 {
+  text-align: center;
+}
+
+.destacado {
+  background-color: #121619;
+  color: #fff;
+}
+
+.article2_Page_navigation {
+  color: #121619 !important;
+}
+
+.article__titulos {
+  color: #6C6E70;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5rem;
+}
+
+.article__subtitulos {
+  color: #D76C69;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 5rem;
+}
+
+.article__texto {
+  padding: 2rem 9rem 6rem 2rem;
+}
+
+.logo {
+  width: 120px;
+}
+
+.navbar-dark {
+  background-color: #121619 !important;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #E56353 !important;
+}
+a:active {
+  color: #E56353 !important;
+}
+
+footer {
+  background-color: #121619 !important;
+}
+
+section {
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 10rem;
+}
+
+.section__icono {
+  width: 22px;
+  top: 1rem;
+}
+
+.btn-secondary {
+  border-radius: 26px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
